@@ -1,0 +1,89 @@
+body {
+    font-family: "Sitka Small", Arial, sans-serif;
+    color: #fff;
+    margin: 0;
+}
+
+h1, h2, h3 {
+    font-family: "Sitka Heading", Arial bold, sans-serif;
+}
+
+header h1 {
+    margin-bottom: 0;
+}
+
+header p {
+    margin-bottom: 30px;
+    margin-top: 0;
+}
+
+a {
+    text-decoration: none;
+    font-family: "Sitka Small", Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    height: 7em;
+    background-color: #434559;
+    border-bottom: solid 5px #e992b6;
+    /*color: #fff;*/
+    width: 100%;
+    top: 0;
+    padding: 15px;
+    position: fixed;
+}
+
+header img {
+    	height:100%;
+	border-radius:50%;
+	border:solid #e992b6 5px;
+	margin-right: 20px;
+}
+
+header div {
+    padding: 15px;
+}
+
+aside {
+    background-color: #98a7b8;
+    margin-top: 8em;
+    border-top: solid 5px #e992b6;
+    border-bottom: solid 5px #e992b6;
+}
+
+section {
+    color: #434559;
+}
+
+section div {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+section div a {
+    border: solid 4px #e992b6;
+    border-radius: 10px;
+    background-color: #434559;
+    color: #fff;
+    padding: 30px;
+}
+
+aside, section, footer {
+    padding: 1em;
+}
+
+footer {
+    color: #434559;
+}
+footer li {
+    list-style: none;
+}
+
+/*footer li:before {*/
+
+/*}*/
+
